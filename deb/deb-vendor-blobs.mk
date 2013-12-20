@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/asus/deb/proprietary/bin/mm-qjpeg-enc-test:system/bin/mm-qjpeg-enc-test \
     vendor/asus/deb/proprietary/bin/mm-qomx-ienc-test:system/bin/mm-qomx-ienc-test \
-    vendor/asus/deb/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/asus/deb/proprietary/bin/mpdecision:system/bin/mpdecision-bck \
     vendor/asus/deb/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/asus/deb/proprietary/bin/nl_listener:system/bin/nl_listener \
     vendor/asus/deb/proprietary/bin/port-bridge:system/bin/port-bridge \
@@ -39,7 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/bin/radish:system/bin/radish \
     vendor/asus/deb/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/asus/deb/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/asus/deb/proprietary/bin/thermald:system/bin/thermald \
+    vendor/asus/deb/proprietary/bin/thermald:system/bin/thermald-bck \
     vendor/asus/deb/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/asus/deb/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/asus/deb/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
@@ -57,10 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/lib/egl/libGLESv2_adreno.so:system/lib/egl/libGLESv2_adreno.so \
     vendor/asus/deb/proprietary/lib/egl/libplayback_adreno.so:system/lib/egl/libplayback_adreno.so \
     vendor/asus/deb/proprietary/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
-    vendor/asus/deb/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/asus/deb/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/asus/deb/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/asus/deb/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/asus/deb/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
     vendor/asus/deb/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/asus/deb/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
